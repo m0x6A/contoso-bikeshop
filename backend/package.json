@@ -1,0 +1,23 @@
+{
+  "name": "contoso-bikes-backend",
+  "version": "1.0.0",
+  "description": "Contoso Bikes webshop API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "type": "module",
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^12.10.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "supertest": "^7.2.2",
+    "vitest": "^4.1.6"
+  }
+}
